@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>borrow HOPE - Christian Counseling</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">borrow HOPE</div>
+            <nav class="nav">
+                <ul class="nav-list" id="navList">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#biography">Biography</a></li>
+                    <li><a href="#client-forms">Client Forms</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-icon">
+                    <a href="#" aria-label="Shopping Bag"><i class="fas fa-shopping-bag"></i></a> </div>
+            </nav>
+            <button class="hamburger-menu" id="hamburgerMenu" aria-label="Open navigation menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-card">
+                <h1>Discover Renewed Hope</h1>
+                <p>Welcome to borrow HOPE, where faith and healing come together. Join us for personalized Christian counseling sessions in a supportive and confidential environment.</p>
+                <a href="#contact" class="btn btn-primary">Request Information</a>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Our Practice</h2>
+                <p class="section-description">At borrow HOPE, we believe in guiding individuals through life's challenges with compassion, biblical wisdom, and professional care. Our goal is to help you find strength, healing, and lasting peace.</p>
+                <div class="about-grid">
+                    <div class="about-item">
+                        <h3>Compassionate Care</h3>
+                        <p>Receive understanding and empathy in a safe space to explore your thoughts and feelings.</p>
+                    </div>
+                    <div class="about-item">
+                        <h3>Biblical Wisdom</h3>
+                        <p>Integrate Christian principles to find hope and guidance rooted in faith.</p>
+                    </div>
+                    <div class="about-item">
+                        <h3>Professional Guidance</h3>
+                        <p>Benefit from experienced counseling tailored to your unique journey.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="biography" class="section bg-light">
+            <div class="container">
+                <h2>My Biography</h2>
+                <div class="bio-content">
+                    <img src="https://via.placeholder.com/200" alt="Counselor Profile Picture" class="bio-img">
+                    <div class="bio-text">
+                        <p>Hello, I'm [Your Name], the founder of borrow HOPE. My journey into Christian counseling was driven by a deep desire to help others navigate life's complexities from a faith-informed perspective. With [X years] of experience and a [Your Degree/Certifications], I specialize in [e.g., anxiety, grief, marital counseling]. I am passionate about creating a nurturing environment where clients can openly share, heal, and grow towards a more hopeful future.</p>
+                        <p>My approach integrates proven therapeutic techniques with Christian principles, ensuring a holistic path to wellness. I believe everyone deserves a safe space to process their experiences, and I am committed to walking alongside you through challenges, offering guidance and support rooted in grace and truth.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="client-forms" class="section">
+            <div class="container">
+                <h2>Client Resources</h2>
+                <p class="section-description">For current clients, please access your necessary forms below. These are crucial steps as we begin our work together.</p>
+                <div class="forms-grid">
+                    <div class="form-card">
+                        <h3>Intake Form</h3>
+                        <p>Please complete this form prior to your first session. It helps me understand your background and needs.</p>
+                        <a href="#" class="btn btn-secondary" target="_blank">Download Intake Form <i class="fas fa-download"></i></a>
+                    </div>
+                    <div class="form-card">
+                        <h3>Confidentiality Agreement</h3>
+                        <p>Review and sign our confidentiality clause to understand your rights and privacy.</p>
+                        <a href="#" class="btn btn-secondary" target="_blank">Download Confidentiality Clause <i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section bg-light">
+            <div class="container">
+                <h2>Contact Us / Request Information</h2>
+                <p class="section-description">Ready to take the next step? Fill out the form below, and I will get back to you shortly to discuss your needs and schedule an initial consultation.</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone (Optional)</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 borrow HOPE. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#terms">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
